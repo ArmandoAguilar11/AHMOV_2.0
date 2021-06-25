@@ -201,7 +201,11 @@ public class Menú extends javax.swing.JFrame {
     }//GEN-LAST:event_BtnAgendaActionPerformed
 
     private void BtnAgenda1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgenda1ActionPerformed
-        // TODO add your handling code here:
+        PanelMantenimiento p1 = new PanelMantenimiento();
+        p1.setSize(PanelPrincipal.getSize());
+        PanelPrincipal.add(p1);
+        PanelPrincipal.revalidate();
+        PanelPrincipal.repaint();
     }//GEN-LAST:event_BtnAgenda1ActionPerformed
 
     private void BtnAgenda2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgenda2ActionPerformed
