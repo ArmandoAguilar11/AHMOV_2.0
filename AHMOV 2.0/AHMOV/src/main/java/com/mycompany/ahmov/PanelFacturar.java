@@ -34,7 +34,7 @@ public class PanelFacturar extends javax.swing.JPanel {
         jTextField1 = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
+        jBCrearF = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
         jTextField4 = new javax.swing.JTextField();
         jLabel13 = new javax.swing.JLabel();
@@ -48,8 +48,8 @@ public class PanelFacturar extends javax.swing.JPanel {
         jTextField8 = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         tbCitas = new javax.swing.JTable();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
+        jBEditarF = new javax.swing.JButton();
+        jBDescargaF = new javax.swing.JButton();
 
         Panel1.setBackground(new java.awt.Color(204, 204, 255));
         Panel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -75,13 +75,13 @@ public class PanelFacturar extends javax.swing.JPanel {
         jLabel3.setForeground(new java.awt.Color(102, 51, 255));
         jLabel3.setText("Crear Factura");
 
-        jButton6.setBackground(new java.awt.Color(102, 102, 255));
-        jButton6.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setText("Crear Factura");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        jBCrearF.setBackground(new java.awt.Color(102, 102, 255));
+        jBCrearF.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
+        jBCrearF.setForeground(new java.awt.Color(255, 255, 255));
+        jBCrearF.setText("Crear Factura");
+        jBCrearF.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                jBCrearFActionPerformed(evt);
             }
         });
 
@@ -136,7 +136,7 @@ public class PanelFacturar extends javax.swing.JPanel {
                 .addGap(26, 26, 26)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 13, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton6)
+                .addComponent(jBCrearF)
                 .addContainerGap(27, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -165,7 +165,7 @@ public class PanelFacturar extends javax.swing.JPanel {
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(58, 58, 58)
-                .addComponent(jButton6)
+                .addComponent(jBCrearF)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -192,23 +192,23 @@ public class PanelFacturar extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(tbCitas);
 
-        jButton8.setBackground(new java.awt.Color(102, 102, 255));
-        jButton8.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(255, 255, 255));
-        jButton8.setText("Editar Factura");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        jBEditarF.setBackground(new java.awt.Color(102, 102, 255));
+        jBEditarF.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
+        jBEditarF.setForeground(new java.awt.Color(255, 255, 255));
+        jBEditarF.setText("Editar Factura");
+        jBEditarF.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                jBEditarFActionPerformed(evt);
             }
         });
 
-        jButton9.setBackground(new java.awt.Color(102, 102, 255));
-        jButton9.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(255, 255, 255));
-        jButton9.setText("Descargar Factura");
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        jBDescargaF.setBackground(new java.awt.Color(102, 102, 255));
+        jBDescargaF.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
+        jBDescargaF.setForeground(new java.awt.Color(255, 255, 255));
+        jBDescargaF.setText("Descargar Factura");
+        jBDescargaF.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                jBDescargaFActionPerformed(evt);
             }
         });
 
@@ -228,9 +228,9 @@ public class PanelFacturar extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addGap(202, 202, 202)
-                .addComponent(jButton8)
+                .addComponent(jBEditarF)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 202, Short.MAX_VALUE)
-                .addComponent(jButton9)
+                .addComponent(jBDescargaF)
                 .addGap(154, 154, 154))
         );
         jPanel3Layout.setVerticalGroup(
@@ -246,8 +246,8 @@ public class PanelFacturar extends javax.swing.JPanel {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton8)
-                    .addComponent(jButton9))
+                    .addComponent(jBEditarF)
+                    .addComponent(jBDescargaF))
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
@@ -269,29 +269,29 @@ public class PanelFacturar extends javax.swing.JPanel {
         this.setVisible(false);
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void jBCrearFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBCrearFActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_jBCrearFActionPerformed
 
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+    private void jBEditarFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBEditarFActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
+    }//GEN-LAST:event_jBEditarFActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+    private void jBDescargaFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBDescargaFActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
+    }//GEN-LAST:event_jBDescargaFActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Panel1;
+    private javax.swing.JButton jBCrearF;
+    private javax.swing.JButton jBDescargaF;
+    private javax.swing.JButton jBEditarF;
     private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
