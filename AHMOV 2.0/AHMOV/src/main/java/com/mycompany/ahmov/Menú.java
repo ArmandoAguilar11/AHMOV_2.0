@@ -15,7 +15,7 @@ public class Menú extends javax.swing.JFrame {
      * Creates new form Menú
      */
     public Menú() {
-        initComponents();     
+        initComponents();
     }
 
     /**
@@ -56,7 +56,7 @@ public class Menú extends javax.swing.JFrame {
         BtnAgenda.setBackground(new java.awt.Color(102, 102, 102));
         BtnAgenda.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
         BtnAgenda.setForeground(new java.awt.Color(255, 255, 255));
-        BtnAgenda.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Documents\\GitHub\\AHMOV_2.0\\icons8_calendar_32.png")); // NOI18N
+        BtnAgenda.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/ahmov/icons8_calendar_32.png"))); // NOI18N
         BtnAgenda.setText(" Agendar Cita");
         BtnAgenda.setBorder(null);
         BtnAgenda.setBorderPainted(false);
@@ -93,7 +93,7 @@ public class Menú extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BtnAgendaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgendaActionPerformed
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_BtnAgendaActionPerformed
 
     /**
