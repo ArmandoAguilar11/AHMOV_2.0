@@ -15,7 +15,7 @@ public class Menú extends javax.swing.JFrame {
      * Creates new form Menú
      */
     public Menú() {
-        initComponents();
+        initComponents();     
     }
 
     /**
@@ -29,6 +29,7 @@ public class Menú extends javax.swing.JFrame {
 
         jPanel2 = new javax.swing.JPanel();
         kGradientPanel1 = new keeptoo.KGradientPanel();
+        BtnAgenda = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setExtendedState(6);
@@ -48,23 +49,52 @@ public class Menú extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.CENTER);
 
+        kGradientPanel1.setkEndColor(new java.awt.Color(153, 153, 255));
+        kGradientPanel1.setkStartColor(new java.awt.Color(102, 0, 255));
         kGradientPanel1.setPreferredSize(new java.awt.Dimension(350, 589));
+
+        BtnAgenda.setBackground(new java.awt.Color(102, 102, 102));
+        BtnAgenda.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
+        BtnAgenda.setForeground(new java.awt.Color(255, 255, 255));
+        BtnAgenda.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Documents\\GitHub\\AHMOV_2.0\\icons8_calendar_32.png")); // NOI18N
+        BtnAgenda.setText(" Agendar Cita");
+        BtnAgenda.setBorder(null);
+        BtnAgenda.setBorderPainted(false);
+        BtnAgenda.setContentAreaFilled(false);
+        BtnAgenda.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        BtnAgenda.setIconTextGap(0);
+        BtnAgenda.setPreferredSize(new java.awt.Dimension(120, 30));
+        BtnAgenda.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnAgendaActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
         kGradientPanel1.setLayout(kGradientPanel1Layout);
         kGradientPanel1Layout.setHorizontalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 350, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(BtnAgenda, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         kGradientPanel1Layout.setVerticalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 589, Short.MAX_VALUE)
+            .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                .addGap(229, 229, 229)
+                .addComponent(BtnAgenda, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(305, Short.MAX_VALUE))
         );
 
         getContentPane().add(kGradientPanel1, java.awt.BorderLayout.LINE_START);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BtnAgendaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgendaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BtnAgendaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -102,6 +132,7 @@ public class Menú extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton BtnAgenda;
     private javax.swing.JPanel jPanel2;
     private keeptoo.KGradientPanel kGradientPanel1;
     // End of variables declaration//GEN-END:variables
