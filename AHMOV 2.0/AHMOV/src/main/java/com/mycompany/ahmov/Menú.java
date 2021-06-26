@@ -225,11 +225,19 @@ public class Menú extends javax.swing.JFrame {
     }//GEN-LAST:event_BtnAgenda3ActionPerformed
 
     private void BtnFacturarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnFacturarActionPerformed
-        // TODO add your handling code here:
+        PanelFacturar p1 = new PanelFacturar();
+        p1.setSize(PanelPrincipal.getSize());
+        PanelPrincipal.add(p1);
+        PanelPrincipal.revalidate();
+        PanelPrincipal.repaint();
     }//GEN-LAST:event_BtnFacturarActionPerformed
 
     private void BtnAgenda5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgenda5ActionPerformed
-        // TODO add your handling code here:
+        PanelAgenda p1 = new PanelAgenda();
+        p1.setSize(PanelPrincipal.getSize());
+        PanelPrincipal.add(p1);
+        PanelPrincipal.revalidate();
+        PanelPrincipal.repaint();
     }//GEN-LAST:event_BtnAgenda5ActionPerformed
 
     /**
