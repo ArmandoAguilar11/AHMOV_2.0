@@ -70,14 +70,14 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="BtnAgenda3" alignment="0" max="32767" attributes="0"/>
+              <Component id="BtnReporte" alignment="0" max="32767" attributes="0"/>
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="BtnAgenda2" pref="338" max="32767" attributes="0"/>
-                      <Component id="BtnAgenda" alignment="0" pref="338" max="32767" attributes="0"/>
-                      <Component id="BtnAgenda1" alignment="1" max="32767" attributes="0"/>
-                      <Component id="BtnAgenda5" alignment="0" max="32767" attributes="0"/>
+                      <Component id="BtnClientes" pref="338" max="32767" attributes="0"/>
+                      <Component id="BtnUsu" alignment="0" pref="338" max="32767" attributes="0"/>
+                      <Component id="BtnMantenimiento" alignment="1" max="32767" attributes="0"/>
+                      <Component id="BtnAgenda" alignment="0" max="32767" attributes="0"/>
                       <Component id="BtnFacturar" alignment="0" pref="338" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
@@ -88,24 +88,24 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace pref="199" max="32767" attributes="0"/>
-                  <Component id="BtnAgenda5" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="BtnAgenda" min="-2" pref="55" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="BtnFacturar" min="-2" pref="55" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="BtnAgenda1" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="BtnMantenimiento" min="-2" pref="55" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="BtnAgenda" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="BtnUsu" min="-2" pref="55" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="BtnAgenda3" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="BtnReporte" min="-2" pref="55" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="BtnAgenda2" min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="BtnClientes" min="-2" pref="55" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="BtnAgenda">
+        <Component class="javax.swing.JButton" name="BtnUsu">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="66" green="66" red="66" type="rgb"/>
@@ -131,10 +131,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAgendaActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnUsuActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="BtnAgenda1">
+        <Component class="javax.swing.JButton" name="BtnMantenimiento">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="66" green="66" red="66" type="rgb"/>
@@ -160,10 +160,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAgenda1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnMantenimientoActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="BtnAgenda2">
+        <Component class="javax.swing.JButton" name="BtnClientes">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="66" green="66" red="66" type="rgb"/>
@@ -189,10 +189,10 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAgenda2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnClientesActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="BtnAgenda3">
+        <Component class="javax.swing.JButton" name="BtnReporte">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="66" green="66" red="66" type="rgb"/>
@@ -218,7 +218,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAgenda3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnReporteActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="BtnFacturar">
@@ -250,7 +250,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnFacturarActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="BtnAgenda5">
+        <Component class="javax.swing.JButton" name="BtnAgenda">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="66" green="66" red="66" type="rgb"/>
@@ -276,7 +276,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAgenda5ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAgendaActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

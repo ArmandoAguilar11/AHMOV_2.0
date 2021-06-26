@@ -41,6 +41,7 @@ public class PanelAgenda extends javax.swing.JPanel {
         jButton5 = new javax.swing.JButton();
         jTextField5 = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
+        jButton6 = new javax.swing.JButton();
 
         Panel1.setBackground(new java.awt.Color(204, 204, 255));
         Panel1.setMinimumSize(new java.awt.Dimension(937, 669));
@@ -51,18 +52,18 @@ public class PanelAgenda extends javax.swing.JPanel {
         jButton1.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Buscar Cliente");
-        Panel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 210, -1, -1));
+        Panel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 210, -1, -1));
 
         jButton3.setBackground(new java.awt.Color(102, 102, 255));
         jButton3.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("Crear Cliente");
+        jButton3.setText("Editar");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-        Panel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 210, -1, -1));
+        Panel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 210, -1, -1));
 
         jButton4.setBackground(new java.awt.Color(102, 102, 255));
         jButton4.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
@@ -101,7 +102,7 @@ public class PanelAgenda extends javax.swing.JPanel {
             }
         });
         Panel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 280, 710, 110));
-        Panel1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 240, 160, 20));
+        Panel1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 230, 160, 30));
 
         jLabel6.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(102, 51, 255));
@@ -115,12 +116,23 @@ public class PanelAgenda extends javax.swing.JPanel {
             }
         });
         Panel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 40, -1, -1));
-        Panel1.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 190, 160, 20));
+        Panel1.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 180, 160, 30));
 
         jLabel7.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(102, 51, 255));
         jLabel7.setText("ID Cliente:");
         Panel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 180, -1, 30));
+
+        jButton6.setBackground(new java.awt.Color(102, 102, 255));
+        jButton6.setFont(new java.awt.Font("Dialog", 1, 16)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
+        jButton6.setText("Agendar");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        Panel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 210, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -147,6 +159,10 @@ public class PanelAgenda extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton6ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Panel1;
@@ -154,6 +170,7 @@ public class PanelAgenda extends javax.swing.JPanel {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel6;

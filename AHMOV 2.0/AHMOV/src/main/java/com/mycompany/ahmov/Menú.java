@@ -29,12 +29,12 @@ public class Menú extends javax.swing.JFrame {
 
         PanelPrincipal = new javax.swing.JPanel();
         kGradientPanel1 = new keeptoo.KGradientPanel();
-        BtnAgenda = new javax.swing.JButton();
-        BtnAgenda1 = new javax.swing.JButton();
-        BtnAgenda2 = new javax.swing.JButton();
-        BtnAgenda3 = new javax.swing.JButton();
+        BtnUsu = new javax.swing.JButton();
+        BtnMantenimiento = new javax.swing.JButton();
+        BtnClientes = new javax.swing.JButton();
+        BtnReporte = new javax.swing.JButton();
         BtnFacturar = new javax.swing.JButton();
-        BtnAgenda5 = new javax.swing.JButton();
+        BtnAgenda = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setExtendedState(6);
@@ -58,67 +58,67 @@ public class Menú extends javax.swing.JFrame {
         kGradientPanel1.setkStartColor(new java.awt.Color(102, 0, 255));
         kGradientPanel1.setPreferredSize(new java.awt.Dimension(350, 589));
 
-        BtnAgenda.setBackground(new java.awt.Color(102, 102, 102));
-        BtnAgenda.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
-        BtnAgenda.setForeground(new java.awt.Color(255, 255, 255));
-        BtnAgenda.setText("Administrar Usuarios");
-        BtnAgenda.setBorder(null);
-        BtnAgenda.setBorderPainted(false);
-        BtnAgenda.setContentAreaFilled(false);
-        BtnAgenda.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        BtnAgenda.setIconTextGap(0);
-        BtnAgenda.setPreferredSize(new java.awt.Dimension(120, 30));
-        BtnAgenda.addActionListener(new java.awt.event.ActionListener() {
+        BtnUsu.setBackground(new java.awt.Color(102, 102, 102));
+        BtnUsu.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
+        BtnUsu.setForeground(new java.awt.Color(255, 255, 255));
+        BtnUsu.setText("Administrar Usuarios");
+        BtnUsu.setBorder(null);
+        BtnUsu.setBorderPainted(false);
+        BtnUsu.setContentAreaFilled(false);
+        BtnUsu.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        BtnUsu.setIconTextGap(0);
+        BtnUsu.setPreferredSize(new java.awt.Dimension(120, 30));
+        BtnUsu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnAgendaActionPerformed(evt);
+                BtnUsuActionPerformed(evt);
             }
         });
 
-        BtnAgenda1.setBackground(new java.awt.Color(102, 102, 102));
-        BtnAgenda1.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
-        BtnAgenda1.setForeground(new java.awt.Color(255, 255, 255));
-        BtnAgenda1.setText("Mantenimiento");
-        BtnAgenda1.setBorder(null);
-        BtnAgenda1.setBorderPainted(false);
-        BtnAgenda1.setContentAreaFilled(false);
-        BtnAgenda1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        BtnAgenda1.setIconTextGap(0);
-        BtnAgenda1.setPreferredSize(new java.awt.Dimension(120, 30));
-        BtnAgenda1.addActionListener(new java.awt.event.ActionListener() {
+        BtnMantenimiento.setBackground(new java.awt.Color(102, 102, 102));
+        BtnMantenimiento.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
+        BtnMantenimiento.setForeground(new java.awt.Color(255, 255, 255));
+        BtnMantenimiento.setText("Mantenimiento");
+        BtnMantenimiento.setBorder(null);
+        BtnMantenimiento.setBorderPainted(false);
+        BtnMantenimiento.setContentAreaFilled(false);
+        BtnMantenimiento.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        BtnMantenimiento.setIconTextGap(0);
+        BtnMantenimiento.setPreferredSize(new java.awt.Dimension(120, 30));
+        BtnMantenimiento.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnAgenda1ActionPerformed(evt);
+                BtnMantenimientoActionPerformed(evt);
             }
         });
 
-        BtnAgenda2.setBackground(new java.awt.Color(102, 102, 102));
-        BtnAgenda2.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
-        BtnAgenda2.setForeground(new java.awt.Color(255, 255, 255));
-        BtnAgenda2.setText("Administrar Clientes");
-        BtnAgenda2.setBorder(null);
-        BtnAgenda2.setBorderPainted(false);
-        BtnAgenda2.setContentAreaFilled(false);
-        BtnAgenda2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        BtnAgenda2.setIconTextGap(0);
-        BtnAgenda2.setPreferredSize(new java.awt.Dimension(120, 30));
-        BtnAgenda2.addActionListener(new java.awt.event.ActionListener() {
+        BtnClientes.setBackground(new java.awt.Color(102, 102, 102));
+        BtnClientes.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
+        BtnClientes.setForeground(new java.awt.Color(255, 255, 255));
+        BtnClientes.setText("Administrar Clientes");
+        BtnClientes.setBorder(null);
+        BtnClientes.setBorderPainted(false);
+        BtnClientes.setContentAreaFilled(false);
+        BtnClientes.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        BtnClientes.setIconTextGap(0);
+        BtnClientes.setPreferredSize(new java.awt.Dimension(120, 30));
+        BtnClientes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnAgenda2ActionPerformed(evt);
+                BtnClientesActionPerformed(evt);
             }
         });
 
-        BtnAgenda3.setBackground(new java.awt.Color(102, 102, 102));
-        BtnAgenda3.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
-        BtnAgenda3.setForeground(new java.awt.Color(255, 255, 255));
-        BtnAgenda3.setText("Reportes Administrativos");
-        BtnAgenda3.setBorder(null);
-        BtnAgenda3.setBorderPainted(false);
-        BtnAgenda3.setContentAreaFilled(false);
-        BtnAgenda3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        BtnAgenda3.setIconTextGap(0);
-        BtnAgenda3.setPreferredSize(new java.awt.Dimension(120, 30));
-        BtnAgenda3.addActionListener(new java.awt.event.ActionListener() {
+        BtnReporte.setBackground(new java.awt.Color(102, 102, 102));
+        BtnReporte.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
+        BtnReporte.setForeground(new java.awt.Color(255, 255, 255));
+        BtnReporte.setText("Reportes Administrativos");
+        BtnReporte.setBorder(null);
+        BtnReporte.setBorderPainted(false);
+        BtnReporte.setContentAreaFilled(false);
+        BtnReporte.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        BtnReporte.setIconTextGap(0);
+        BtnReporte.setPreferredSize(new java.awt.Dimension(120, 30));
+        BtnReporte.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnAgenda3ActionPerformed(evt);
+                BtnReporteActionPerformed(evt);
             }
         });
 
@@ -138,19 +138,19 @@ public class Menú extends javax.swing.JFrame {
             }
         });
 
-        BtnAgenda5.setBackground(new java.awt.Color(102, 102, 102));
-        BtnAgenda5.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
-        BtnAgenda5.setForeground(new java.awt.Color(255, 255, 255));
-        BtnAgenda5.setText(" Agendar Cita");
-        BtnAgenda5.setBorder(null);
-        BtnAgenda5.setBorderPainted(false);
-        BtnAgenda5.setContentAreaFilled(false);
-        BtnAgenda5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        BtnAgenda5.setIconTextGap(0);
-        BtnAgenda5.setPreferredSize(new java.awt.Dimension(120, 30));
-        BtnAgenda5.addActionListener(new java.awt.event.ActionListener() {
+        BtnAgenda.setBackground(new java.awt.Color(102, 102, 102));
+        BtnAgenda.setFont(new java.awt.Font("Adobe Fan Heiti Std B", 1, 14)); // NOI18N
+        BtnAgenda.setForeground(new java.awt.Color(255, 255, 255));
+        BtnAgenda.setText(" Agendar Cita");
+        BtnAgenda.setBorder(null);
+        BtnAgenda.setBorderPainted(false);
+        BtnAgenda.setContentAreaFilled(false);
+        BtnAgenda.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        BtnAgenda.setIconTextGap(0);
+        BtnAgenda.setPreferredSize(new java.awt.Dimension(120, 30));
+        BtnAgenda.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BtnAgenda5ActionPerformed(evt);
+                BtnAgendaActionPerformed(evt);
             }
         });
 
@@ -158,14 +158,14 @@ public class Menú extends javax.swing.JFrame {
         kGradientPanel1.setLayout(kGradientPanel1Layout);
         kGradientPanel1Layout.setHorizontalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(BtnAgenda3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(BtnReporte, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(BtnAgenda2, javax.swing.GroupLayout.DEFAULT_SIZE, 338, Short.MAX_VALUE)
-                    .addComponent(BtnAgenda, javax.swing.GroupLayout.DEFAULT_SIZE, 338, Short.MAX_VALUE)
-                    .addComponent(BtnAgenda1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(BtnAgenda5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BtnClientes, javax.swing.GroupLayout.DEFAULT_SIZE, 338, Short.MAX_VALUE)
+                    .addComponent(BtnUsu, javax.swing.GroupLayout.DEFAULT_SIZE, 338, Short.MAX_VALUE)
+                    .addComponent(BtnMantenimiento, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BtnAgenda, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(BtnFacturar, javax.swing.GroupLayout.DEFAULT_SIZE, 338, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -173,17 +173,17 @@ public class Menú extends javax.swing.JFrame {
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
                 .addContainerGap(199, Short.MAX_VALUE)
-                .addComponent(BtnAgenda5, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnAgenda, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(BtnFacturar, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(BtnAgenda1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnMantenimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(BtnAgenda, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnUsu, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(BtnAgenda3, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnReporte, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(BtnAgenda2, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(BtnClientes, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30))
         );
 
@@ -192,45 +192,53 @@ public class Menú extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void BtnAgendaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgendaActionPerformed
+    private void BtnUsuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnUsuActionPerformed
         PanelUsuarios p1 = new PanelUsuarios();
         p1.setSize(PanelPrincipal.getSize());
         PanelPrincipal.add(p1);
         PanelPrincipal.revalidate();
         PanelPrincipal.repaint();
-    }//GEN-LAST:event_BtnAgendaActionPerformed
+    }//GEN-LAST:event_BtnUsuActionPerformed
 
-    private void BtnAgenda1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgenda1ActionPerformed
+    private void BtnMantenimientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnMantenimientoActionPerformed
         PanelMantenimiento p1 = new PanelMantenimiento();
         p1.setSize(PanelPrincipal.getSize());
         PanelPrincipal.add(p1);
         PanelPrincipal.revalidate();
         PanelPrincipal.repaint();
-    }//GEN-LAST:event_BtnAgenda1ActionPerformed
+    }//GEN-LAST:event_BtnMantenimientoActionPerformed
 
-    private void BtnAgenda2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgenda2ActionPerformed
+    private void BtnClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnClientesActionPerformed
         PanelCliente p1 = new PanelCliente();
         p1.setSize(PanelPrincipal.getSize());
         PanelPrincipal.add(p1);
         PanelPrincipal.revalidate();
         PanelPrincipal.repaint();
-    }//GEN-LAST:event_BtnAgenda2ActionPerformed
+    }//GEN-LAST:event_BtnClientesActionPerformed
 
-    private void BtnAgenda3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgenda3ActionPerformed
+    private void BtnReporteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnReporteActionPerformed
         PanelReporte p1 = new PanelReporte();
         p1.setSize(PanelPrincipal.getSize());
         PanelPrincipal.add(p1);
         PanelPrincipal.revalidate();
         PanelPrincipal.repaint();
-    }//GEN-LAST:event_BtnAgenda3ActionPerformed
+    }//GEN-LAST:event_BtnReporteActionPerformed
 
     private void BtnFacturarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnFacturarActionPerformed
-        // TODO add your handling code here:
+        PanelFacturar p1 = new PanelFacturar();
+        p1.setSize(PanelPrincipal.getSize());
+        PanelPrincipal.add(p1);
+        PanelPrincipal.revalidate();
+        PanelPrincipal.repaint();
     }//GEN-LAST:event_BtnFacturarActionPerformed
 
-    private void BtnAgenda5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgenda5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BtnAgenda5ActionPerformed
+    private void BtnAgendaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnAgendaActionPerformed
+        PanelAgenda p1 = new PanelAgenda();
+        p1.setSize(PanelPrincipal.getSize());
+        PanelPrincipal.add(p1);
+        PanelPrincipal.revalidate();
+        PanelPrincipal.repaint();
+    }//GEN-LAST:event_BtnAgendaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -269,11 +277,11 @@ public class Menú extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BtnAgenda;
-    private javax.swing.JButton BtnAgenda1;
-    private javax.swing.JButton BtnAgenda2;
-    private javax.swing.JButton BtnAgenda3;
-    private javax.swing.JButton BtnAgenda5;
+    private javax.swing.JButton BtnClientes;
     private javax.swing.JButton BtnFacturar;
+    private javax.swing.JButton BtnMantenimiento;
+    private javax.swing.JButton BtnReporte;
+    private javax.swing.JButton BtnUsu;
     private javax.swing.JPanel PanelPrincipal;
     private keeptoo.KGradientPanel kGradientPanel1;
     // End of variables declaration//GEN-END:variables
